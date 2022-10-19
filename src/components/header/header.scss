@@ -8,20 +8,28 @@
   border-bottom: 1px solid rgb(224, 223, 223);
 
   .left {
-    @include flex-center;
-    flex: 0.1;
-    margin-left: 20px;
+    display: none;
 
-    img {
-      height: 50px;
-      width: 100px;
-      object-fit: contain;
+    @media screen and (min-width: 700px) {
+      @include flex-center;
+      flex: 0.1;
+      margin-left: 20px;
+
+      img {
+        height: 50px;
+        width: 100px;
+        object-fit: contain;
+      }
     }
   }
 
   .search {
     @include flex-center;
-    flex: 0.7;
+    flex: 1;
+
+    @media screen and (min-width: 700px) {
+      flex: 0.7;
+    }
 
     .search-container {
       border-radius: 50px;
@@ -74,16 +82,25 @@
   }
 
   .right {
-    flex: 0.2;
-    @include flex-center;
-    justify-content: space-between;
-    margin-right: 20px;
+    display: none;
+
+    @media screen and (min-width: 700px) {
+      flex: 0.2;
+      @include flex-center;
+      justify-content: space-between;
+      margin-right: 20px;
+    }
 
     .host {
-      font-weight: bold;
-      font-size: 14px;
-      padding: 10px;
-      border-radius: 50px;
+      display: none;
+
+      @media screen and (min-width: 700px) {
+        font-weight: bold;
+        font-size: 14px;
+        padding: 10px;
+        border-radius: 50px;
+      }
+
       cursor: pointer;
       &:hover {
         background-color: #f3f2f2;
