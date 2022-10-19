@@ -22,7 +22,7 @@ const Header = () => {
             <div className="guests-container">
               <p>Add guests</p>
               <span>
-                <Search />
+                <Search className="icon" />
               </span>
             </div>
           </div>
