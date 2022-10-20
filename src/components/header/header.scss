@@ -2,13 +2,28 @@
 @import "../../styles/mixins";
 @import "../../styles//reset";
 
+.home {
+  height: 100vh;
+  overflow: scroll;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 .header {
   height: 14vh;
   display: flex;
   border-bottom: 1px solid rgb(224, 223, 223);
   top: 0;
   position: sticky;
-  background: #fff;
+  background-color: #fff;
+  z-index: 111;
+  overflow-y: hidden;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 
   .left {
     display: none;
