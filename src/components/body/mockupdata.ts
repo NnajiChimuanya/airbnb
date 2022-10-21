@@ -14,6 +14,17 @@ export const data: Idata[] = [
   },
   {
     images: [
+      "https://hashtaglegend.com/storage/app/media/Article%20Images/AirBNB-luxe-1.jpg",
+    ],
+    name: "Guyonvelle",
+    location: "France",
+    distance: "4,604 Kilometres away",
+    date: "Dec 4 - 9",
+    cost: "$104 night",
+    rating: "4.64",
+  },
+  {
+    images: [
       "https://media.vrbo.com/lodging/60000000/59910000/59900500/59900404/cfd8e602.c6.jpg",
     ],
     name: "El Port de la Selva",
@@ -44,6 +55,17 @@ export const data: Idata[] = [
     date: "Mar 31 = Apr 5",
     cost: "$246 night",
     rating: "4.95",
+  },
+  {
+    images: [
+      "https://media.vrbo.com/lodging/35000000/34090000/34087400/34087333/6154c88a.c6.jpg",
+    ],
+    name: "Isle of Wight",
+    location: "UK",
+    distance: "3,000 Kilometres away",
+    date: "Oct 30 - Nov 4",
+    cost: "$282 night",
+    rating: "4.86",
   },
   {
     images: [
@@ -143,5 +165,16 @@ export const data: Idata[] = [
     date: "Mar 31 = Apr 5",
     cost: "$246 night",
     rating: "4.95",
+  },
+  {
+    images: [
+      "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hawaii-vrbo-vacation-rental-1653063882.png",
+    ],
+    name: "Salobrena",
+    location: "Spain",
+    distance: "3,443 Kilometres away",
+    date: "Jan 9 - 14",
+    cost: "$459 night",
+    rating: "4.69",
   },
 ];
