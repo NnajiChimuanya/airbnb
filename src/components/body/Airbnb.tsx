@@ -1,82 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import "./airbnb.scss";
-import { AiFillHeart } from "react-icons/ai";
-import { FcLike } from "react-icons/fc";
+import { data } from "./mockupdata";
+import Item from "./Item";
 
-const Airbnb = () => {
+const Airbnb: React.FC = () => {
   return (
     <div className="airbnb">
-      <div className="item">
-        <div className="top">
-          <AiFillHeart className="like-icon" />
-
-          <div className="images">
-            <img
-              src="https://bluprint.onemega.com/wp-content/uploads/2018/03/myhome-tropical-house-image-4.jpg"
-              alt="l"
-            />
-          </div>
-        </div>
-
-        <div className="details-container">
-          <div className="details"></div>
-          <div className="start"></div>
-        </div>
-      </div>
-
-      <div className="item">
-        <div className="top">
-          <AiFillHeart className="like-icon" />
-
-          <div className="images">
-            <img
-              src="https://bluprint.onemega.com/wp-content/uploads/2018/03/myhome-tropical-house-image-4.jpg"
-              alt="l"
-            />
-          </div>
-        </div>
-
-        <div className="details-container">
-          <div className="details"></div>
-          <div className="start"></div>
-        </div>
-      </div>
-
-      <div className="item">
-        <div className="top">
-          <AiFillHeart className="like-icon" />
-
-          <div className="images">
-            <img
-              src="https://bluprint.onemega.com/wp-content/uploads/2018/03/myhome-tropical-house-image-4.jpg"
-              alt="l"
-            />
-          </div>
-        </div>
-
-        <div className="details-container">
-          <div className="details"></div>
-          <div className="start"></div>
-        </div>
-      </div>
-
-      <div className="item">
-        <div className="top">
-          <AiFillHeart className="like-icon" />
-
-          <div className="images">
-            <img
-              src="https://bluprint.onemega.com/wp-content/uploads/2018/03/myhome-tropical-house-image-4.jpg"
-              alt="l"
-            />
-          </div>
-        </div>
-
-        <div className="details-container">
-          <div className="details"></div>
-          <div className="start"></div>
-        </div>
-      </div>
+      {data.map((item, id) => {
+        let { images, name, location, distance, date, cost, rating } = item;
+        return (
+          <Item
+            key={id}
+            images={images}
+            name={name}
+            distance={distance}
+            date={date}
+            location={location}
+            cost={cost}
+            rating={rating}
+          />
+        );
+      })}
     </div>
   );
 };
