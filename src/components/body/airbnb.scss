@@ -4,17 +4,45 @@
 
 .airbnb {
   margin-top: 100px;
-  margin-left: 10px;
   position: inherit;
+  margin: 0px 30px;
   padding: 20px;
   display: grid;
-  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-columns: 300px;
   column-gap: 30px;
   row-gap: 30px;
 
+  @media screen and (min-width: 600px) {
+    grid-template-columns: 300px 300px;
+    margin: 0;
+    margin-left: 10px;
+    column-gap: 30px;
+    margin-top: 100px;
+  }
+
+  @media screen and (min-width: 900px) {
+    grid-template-columns: 300px 300px 300px;
+    margin: 0;
+    margin-left: 10px;
+    column-gap: 50px;
+    margin-top: 100px;
+  }
+
+  @media screen and (min-width: 1300px) {
+    grid-template-columns: 300px 300px 300px 300px;
+    margin: 0;
+    margin-left: 10px;
+    column-gap: 30px;
+    margin-top: 100px;
+  }
+
   .item {
-    width: 300px;
+    width: 350px;
     position: relative;
+
+    @media screen and (min-width: 600px) {
+      width: 300px;
+    }
 
     .top {
       .like-icon {
@@ -61,10 +89,20 @@
         }
 
         img {
-          width: 300px;
+          width: 350px;
           height: 280px;
           object-fit: cover;
           border-radius: 15px;
+
+          @media screen and (min-width: 600px) {
+            width: 300px;
+          }
+
+          // @media screen and (min-width: 600px) {
+          //   grid-template-columns: 300px 300px;
+          //   margin: 0;
+          //   margin-left: 10px;
+          // }
         }
       }
     }

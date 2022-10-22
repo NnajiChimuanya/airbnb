@@ -11,8 +11,12 @@
   padding: 0px 30px;
   border-top: 1px solid rgb(224, 223, 223);
 
-  display: flex;
-  justify-content: space-between;
+  display: none;
+
+  @media screen and (min-width: 800px) {
+    display: flex;
+    justify-content: space-between;
+  }
 
   .left {
     @include flex-center;

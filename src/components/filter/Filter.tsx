@@ -8,8 +8,6 @@ const Filter: React.FC = () => {
   const [active, setActive] = useState<React.SetStateAction<number>>(0);
   const [viewStart, setViewStart] = useState<React.SetStateAction<number>>(0);
 
-  console.log(viewStart);
-
   return (
     <div className="filter">
       <div className="list">

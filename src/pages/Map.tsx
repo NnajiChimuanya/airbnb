@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/header/Header";
 import Filter from "../components/filter/Filter";
 import ShowMap from "../components/showMap/ShowMap";
+import MyMap from "../components/map/Map";
 
 const Map = () => {
   return (
@@ -9,7 +10,7 @@ const Map = () => {
       <Header />
       <Filter />
 
-      <h3> The Map</h3>
+      <MyMap />
 
       <ShowMap text="Show list" link="/" />
     </div>

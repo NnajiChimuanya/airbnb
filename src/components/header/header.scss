@@ -20,6 +20,7 @@
   background-color: #fff;
   z-index: 111;
   overflow-y: hidden;
+  width: 100vw;
 
   &::-webkit-scrollbar {
     display: none;
@@ -116,7 +117,7 @@
     .host {
       display: none;
 
-      @media screen and (min-width: 700px) {
+      @media screen and (min-width: 800px) {
         display: block;
         font-weight: 600;
         font-size: 14px;
