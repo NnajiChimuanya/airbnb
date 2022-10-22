@@ -1,0 +1,21 @@
+@import "../../styles/colors";
+@import "../../styles/mixins";
+@import "../../styles//reset";
+
+.showMap {
+  width: 150px;
+  height: 50px;
+  margin-right: 45vw;
+  margin-left: 45vw;
+  margin-bottom: 18vh;
+  background-color: #41343d;
+
+  bottom: 0;
+  position: absolute;
+  z-index: 301;
+
+  border-radius: 50px;
+
+  @include flex-center;
+  color: #fff;
+}
