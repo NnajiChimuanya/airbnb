@@ -10,7 +10,7 @@ const Home = () => {
     <div className="home">
       <Header />
       <Filter />
-      <ShowMap />
+      <ShowMap text="Show Map" link="/map" />
       <Airbnb />
       <Footer />
     </div>

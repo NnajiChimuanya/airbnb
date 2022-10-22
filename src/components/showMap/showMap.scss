@@ -17,5 +17,13 @@
   border-radius: 50px;
 
   @include flex-center;
-  color: #fff;
+
+  .link {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+  }
 }
