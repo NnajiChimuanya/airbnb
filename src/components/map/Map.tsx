@@ -7,7 +7,8 @@ const MyMap: React.FC = () => {
       <GoogleMap
         mapContainerStyle={{
           width: "98vw",
-          height: "41.5vw",
+          height: "90vh",
+          overflowY: "hidden",
         }}
         center={{
           lat: 9.072264,
