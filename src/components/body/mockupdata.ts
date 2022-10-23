@@ -4,6 +4,8 @@ export const data: Idata[] = [
   {
     images: [
       "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hawaii-vrbo-vacation-rental-1653063882.png",
+      "https://cdn.vox-cdn.com/thumbor/0eoiN9XqqsSVbiCNo_h0hbUP_yI=/0x0:1023x682/1200x800/filters:focal(431x260:593x422)/cdn.vox-cdn.com/uploads/chorus_image/image/64006695/0b0cd00c_891f_49a5_a75c_cdd640a23020.f10.0.jpg",
+      "https://media.vrbo.com/lodging/35000000/34780000/34776200/34776136/31f5b0e1.f6.jpg",
     ],
     name: "Salobrena",
     location: "Spain",
@@ -15,6 +17,7 @@ export const data: Idata[] = [
   {
     images: [
       "https://hashtaglegend.com/storage/app/media/Article%20Images/AirBNB-luxe-1.jpg",
+      "https://media.vrbo.com/lodging/35000000/34090000/34087400/34087333/6154c88a.c6.jpg",
     ],
     name: "Guyonvelle",
     location: "France",
@@ -26,6 +29,7 @@ export const data: Idata[] = [
   {
     images: [
       "https://media.vrbo.com/lodging/60000000/59910000/59900500/59900404/cfd8e602.c6.jpg",
+      "https://gallery.streamlinevrs.com/units-gallery/00/05/44/image_156810625.jpeg",
     ],
     name: "El Port de la Selva",
     location: "Spain",
@@ -37,6 +41,7 @@ export const data: Idata[] = [
   {
     images: [
       "https://static2.mansionglobal.com/production/media/article-images/b5416efec73037c3616699dbde7529ea/large_275.jpg",
+      "https://hashtaglegend.com/storage/app/media/Article%20Images/AirBNB-luxe-1.jpg",
     ],
     name: "Ponta Delgada",
     location: "Portugal",
@@ -48,6 +53,7 @@ export const data: Idata[] = [
   {
     images: [
       "https://i.insider.com/58a5d01f01fe58fe4f8b47c3?width=1000&format=jpeg&auto=webp",
+      "https://cdn.homedit.com/wp-content/uploads/2021/05/New-Lakehouse-Images-Craig-Thompson-Exterior.jpg",
     ],
     name: "Joncherey",
     location: "France",
@@ -59,6 +65,7 @@ export const data: Idata[] = [
   {
     images: [
       "https://media.vrbo.com/lodging/35000000/34090000/34087400/34087333/6154c88a.c6.jpg",
+      "https://odis.homeaway.com/odis/destination/adf45333-140a-40cf-987f-bc49b711c3d9.carousel-m.jpg",
     ],
     name: "Isle of Wight",
     location: "UK",
@@ -70,6 +77,8 @@ export const data: Idata[] = [
   {
     images: [
       "https://hashtaglegend.com/storage/app/media/Article%20Images/AirBNB-luxe-1.jpg",
+      "https://cdn.liverez.com/5/11195/1/51732/800/1.jpg",
+      "https://lfvacations.com/application/files/9316/0567/8772/smith-mtn-lake.jpg",
     ],
     name: "Guyonvelle",
     location: "France",
@@ -81,6 +90,7 @@ export const data: Idata[] = [
   {
     images: [
       "https://odis.homeaway.com/odis/destination/adf45333-140a-40cf-987f-bc49b711c3d9.carousel-m.jpg",
+      "https://i.pinimg.com/originals/f6/79/f9/f679f981ca74839d4df7222e11dc0d8d.jpg",
     ],
     name: "Nubdorf/Debant",
     location: "Austria",
@@ -92,6 +102,7 @@ export const data: Idata[] = [
   {
     images: [
       "https://i.insider.com/5f218effaee6a830f03ec538?width=1000&format=jpeg&auto=webp",
+      "https://gallery.streamlinevrs.com/locations-images/image_346966.jpeg?tt=1650996870",
     ],
     name: "Caylus",
     location: "France",
@@ -102,6 +113,7 @@ export const data: Idata[] = [
   },
   {
     images: [
+      "https://media.vrbo.com/lodging/35000000/34780000/34776200/34776136/31f5b0e1.f6.jpg",
       "https://cdn.travelpulse.com/images/99999999-9999-9999-9999-999999999999/24e29b68-a570-e711-a966-ff3bc7afe33a/630x355.jpg",
     ],
     name: "Villarrubia",
@@ -114,6 +126,7 @@ export const data: Idata[] = [
   {
     images: [
       "https://media.vrbo.com/lodging/35000000/34090000/34087400/34087333/6154c88a.c6.jpg",
+      "https://odis.homeaway.com/odis/listing/7f07de19-a103-4884-b90d-a1a2f6af82df.c6.jpg",
     ],
     name: "Isle of Wight",
     location: "UK",
@@ -125,6 +138,8 @@ export const data: Idata[] = [
   {
     images: [
       "https://res.cloudinary.com/resortsandlodges/image/fetch/w_800,h_520,c_fill/https://media.travelnetsolutions.com/8009b8b7625f4d35b142401c352c0190/original.jpg",
+      "https://media-cdn.tripadvisor.com/media/vr-splice-j/0b/28/33/ff.jpg",
+      "https://odis.homeaway.com/odis/listing/7f07de19-a103-4884-b90d-a1a2f6af82df.c6.jpg",
     ],
     name: "Krabcice",
     location: "Czechia",
@@ -136,6 +151,8 @@ export const data: Idata[] = [
   {
     images: [
       "https://gallery.streamlinevrs.com/units-gallery/00/05/44/image_156810625.jpeg",
+      "https://www.deepcreek.com/sites/default/files/styles/350x270/public/blog-teaser/windy_acres_teaser_2.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSisr_e0106XqkTNyNqUWE5XI2u6mZ7kEMoKdZs2oQeDYho6AbIi8c9VhzwiQ0bPiZRq9U&usqp=CAU",
     ],
     name: "Raray",
     location: "France",
@@ -147,6 +164,7 @@ export const data: Idata[] = [
   {
     images: [
       "https://rdcnewscdn.realtor.com/wp-content/uploads/2022/03/2-most-affordable-vacation-homes.jpg",
+      "https://cdn.homedit.com/wp-content/uploads/2021/05/New-Lakehouse-Images-Craig-Thompson-Exterior.jpg",
     ],
     name: "Canterbury",
     location: "UK",
@@ -158,6 +176,7 @@ export const data: Idata[] = [
   {
     images: [
       "https://www.usnews.com/dims4/USNEWS/969b907/2147483647/thumbnail/970x647/quality/85/?url=http%3A%2F%2Fmedia.beam.usnews.com%2F7d%2Fd7%2Fce42ec8b466ebf93dc1da709ae62%2F1-main-photo-courtesy-of-airbnb.jpg ",
+      "https://images.ctfassets.net/gxwgulxyxxy1/1DTUyRkyAlI6Ahn5zJpjhu/baaae21ff7944284e60566d01ab6a400/23a7f487-7205-45d2-9359-38ea9942d1f5.lg1.jpg?fm=jpg&fl=progressive&w=436&h=436&fit=fill&q=100",
     ],
     name: "Joncherey",
     location: "France",
@@ -168,6 +187,7 @@ export const data: Idata[] = [
   },
   {
     images: [
+      "https://cdn.homedit.com/wp-content/uploads/2021/05/New-Lakehouse-Images-Craig-Thompson-Exterior.jpg",
       "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hawaii-vrbo-vacation-rental-1653063882.png",
     ],
     name: "Salobrena",

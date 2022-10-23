@@ -63,9 +63,25 @@
       }
 
       &:hover {
+        .prev-image {
+          display: block;
+        }
+
         .next-image {
           display: block;
         }
+      }
+
+      .prev-image {
+        margin-left: 20px;
+        margin-top: 120px;
+        font-size: 30px;
+        position: absolute;
+        background-color: white;
+        border-radius: 50%;
+        cursor: pointer;
+        display: none;
+        padding: 1px;
       }
 
       .next-image {
@@ -78,6 +94,10 @@
         cursor: pointer;
         display: none;
         padding: 1px;
+      }
+
+      .display-none {
+        display: none;
       }
 
       .images {

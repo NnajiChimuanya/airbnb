@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { AiFillHeart, AiOutlineRight } from "react-icons/ai";
 import { FcLike } from "react-icons/fc";
 import ChevronRight from "@mui/icons-material/ChevronRight";
-import Idata from "../../interfaces/IData";
+import { ChevronLeft } from "@mui/icons-material";
+import { IndexType } from "typescript";
 
 interface ItemProps {
   images: string[];
@@ -24,6 +25,21 @@ const Item: React.FC<ItemProps> = ({
   rating,
 }) => {
   const [liked, setLiked] = useState<React.SetStateAction<boolean>>(false);
+  const [currentImage, setCurrentImage] = useState(0);
+
+  const handleRight = (num: number) => {
+    if (num < images.length - 1) {
+      num++;
+      setCurrentImage(num);
+    }
+  };
+
+  const handleLeft = (num: number) => {
+    if (num > 0) {
+      num--;
+      setCurrentImage(num);
+    }
+  };
 
   return (
     <div className="item">
@@ -34,12 +50,20 @@ const Item: React.FC<ItemProps> = ({
           <AiFillHeart className="like-icon" onClick={() => setLiked(!liked)} />
         )}
 
-        <ChevronRight className="next-image" />
+        <ChevronLeft
+          onClick={() => handleLeft(currentImage)}
+          className={`${currentImage > 0 ? "prev-image" : "display-none"} `}
+        />
+
+        <ChevronRight
+          onClick={() => handleRight(currentImage)}
+          className={`${
+            currentImage < images.length - 1 ? "next-image" : "display-none"
+          } `}
+        />
 
         <div className="images">
-          {images.map((name, id) => {
-            return <img src={name} alt="name" />;
-          })}
+          <img src={images[currentImage]} alt="name" />
         </div>
       </div>
 
