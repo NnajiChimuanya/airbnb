@@ -6,8 +6,8 @@ const MyMap: React.FC = () => {
     <LoadScript googleMapsApiKey="AIzaSyALvyaTe0j8UecPXnO20J6ou6HYqFddynI">
       <GoogleMap
         mapContainerStyle={{
-          width: "98vw",
-          height: "90vh",
+          width: "100vw",
+          height: "85vh",
           overflowY: "hidden",
         }}
         center={{
